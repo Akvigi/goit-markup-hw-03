@@ -358,3 +358,8 @@ p.portfolio {
   letter-spacing: 0.03em;
   margin-top: 4px;
 }
+
+.border_img_portfolio {
+  border: 1px;
+  color: #eeeeee;
+}
