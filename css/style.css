@@ -45,9 +45,15 @@ body {
 .listnav {
   list-style: none;
   display: flex;
+  margin: 0;
 }
 
 .li_nav {
+  margin: 32px 50px 32px 0;
+}
+
+.li_nav:last-child {
+  margin-right: 0;
 }
 
 .linknav {
@@ -62,6 +68,16 @@ body {
 .linknav:focus,
 .linknav:hover {
   color: #2196f3;
+}
+
+.list_addres_header {
+  margin-left: 331px;
+  margin: 0;
+}
+
+.li_adress_header:first-child {
+  padding-left: 331px;
+  margin-right: 50px;
 }
 
 .linkadress {
