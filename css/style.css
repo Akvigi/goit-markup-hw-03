@@ -347,6 +347,7 @@ p.g {
   line-height: 1.46;
   font-weight: 400;
   color: #ffffff99;
+  flex-direction: column;
 }
 
 .logofooter {
@@ -370,7 +371,7 @@ p.g {
 }
 
 .footer_li {
-  margin: 9px 0;
+  margin: 9px 0 0 0;
 }
 
 .portfolio_body {
